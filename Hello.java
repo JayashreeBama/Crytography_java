@@ -1,7 +1,8 @@
 import java.util.*;
 public class Hello{
   public static void main(String args[]){
-    
-    System.out.println("Hellooo");
+    Scanner sc = new Scanner(System.in);
+    String s=sc.nextInt();
+    System.out.println(s);
   }
 }
